@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Formulário de inscrição</title>
+    </head>
+
+    <body>
+        <h1>Formulário de inscrição</h1>
+
+        <form>
+            
+        <!--Nome-->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nomeUsuario" required>
+        <br><br>
+        
+        <!--Email-->
+        <label for="email">Email:</label><br>
+        <input type="email" name="emailUsuario" id="email" required>    
+        <br><br>
+        
+        <!--Numero-->
+        <label for="telefone">WhatsApp</label><br>
+        <input type="tel" name="telefoneUsuario" id="telefone" required>
+        <br><br>
+
+        <!--seleção de atuação-->
+        <label>Área de Atuação:</label>
+
+        <input type="radio" name="atuacaoUsuario" id="atuacao" value="DEV">
+        <label for="atuacao">Desenvolvimento</label>
+        
+        <input type="radio" name="atuacaoUsuario" id="atuacao" value="QA">
+        <label for="atuacao">Quality Assurance (QA)</label>
+        
+        <input type="radio" name="atuacaoUsuario" id="atuacao" value="AD">
+        <label for="atuacao">Analise de Dados</label>
+        
+        <input type="radio" name="atuacaoUsuario" id="atuacao" value="INFRA">
+        <label for="atuacao">Infraestrutura</label>
+        <br><br>
+
+        <!--Observações-->
+        <label for="observacoes">Observações:</label><br>
+        <textarea name="observacoes" id="observacoes" cols="40" rows="4" placeholder="Insira informações sobre você..."></textarea>
+        <br><br>
+
+        <input type="checkbox" id="notificacoes" name="notificacoes" value="sim">
+        <label for="notificacoes">Desejo receber novidades e ofertas por email.</label>
+        <br><br>
+
+        <!--Botão de envio-->
+        <button type="submit">Enviar</button>
+    
+        </form>  
+    </body>
+</html>
