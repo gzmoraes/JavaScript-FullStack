@@ -4,9 +4,11 @@ header {
   text-transform: uppercase;
 }
 
-h1 {
-  font-family: cursive;
-  font-weight: 100;
+h1{
+  font-family: fantasy;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
@@ -16,5 +18,5 @@ h2 {
 }
 
 p {
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
